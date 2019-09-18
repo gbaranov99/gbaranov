@@ -1,0 +1,40 @@
+#mytext {
+	position: absolute;
+	top: 65px;
+	left: 625px;
+	font: "Courier";
+	color: black;
+}
+
+#myimage {
+	position: absolute;
+	top: 30px;
+	left: 200px;
+	width: 1200px;
+	height:800px;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+ul#navbar li {
+    float: left;
+}
+
+ul#navbar li a {
+    display: block;
+    color: #000000;
+    font-weight:bold;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul#navbar li a:hover {
+    background-color: green;
+    color: white;
+}
+
