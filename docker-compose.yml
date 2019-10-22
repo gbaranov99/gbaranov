@@ -13,8 +13,8 @@ services:
 
       - ./gbaranov/gbaranov-site:/usr/share/nginx/gbaranov/gbaranov-site/html
       - ./gbaranov/dh-param/dhparam-2048.pem:/etc/ssl/certs/gbaranov/dhparam-2048.pem
-      - /docker-volumes/etc/letsencrypt/live/gbaranov.com-0001/fullchain.pem:/etc/letsencrypt/live/gbaranov.com-0001/fullchain.pem
-      - /docker-volumes/etc/letsencrypt/live/gbaranov.com-0001/privkey.pem:/etc/letsencrypt/live/gbaranov.com-0001/privkey.pem
+      - /docker-volumes/etc/letsencrypt/live/gbaranov.com/fullchain.pem:/etc/letsencrypt/live/gbaranov.com/fullchain.pem
+      - /docker-volumes/etc/letsencrypt/live/gbaranov.com/privkey.pem:/etc/letsencrypt/live/gbaranov.com/privkey.pem
 
     networks:
       - docker-network
